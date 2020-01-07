@@ -4,17 +4,6 @@
 #device ADC=10
 #use delay(int=8000000)
 
-
-#define GP0 PIN_A0
-#define GP1 PIN_A1
-#define GP2 PIN_A2
-#define GP3 PIN_A3
-#define GP4 PIN_A4
-#define GP5 PIN_A5
-
-#define DELAY 1000
-#define INTS_PER_SECOND 7
-
 int eskipwm=0;
 long int adc_res;   
 
